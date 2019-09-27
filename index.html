@@ -1,0 +1,136 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>50 State Game</title>
+    <style type="text/css">
+
+
+        body {
+            text-align:center;border-collapse:collapse;border-spacing:0;border:none;margin:0px auto;
+        }
+
+        img {
+          width: 35%;
+        }                      
+
+    </style>
+</head>
+
+<body>
+    <img src="http://east-westseminars.com/images/map2.gif" alt="Map">
+    <br>
+
+  <div id='game_default'>
+      <h3>Type all 50 states before the time runs out!</h3>
+    <button id="start_button">START</button>
+  </div>
+
+  <div id='game_start'>
+      <h3>Enter a state:</h3>
+      <input id="state_field" type="text" placeholder="Maryland">   
+  </div>
+
+  <br>
+  <br>
+
+  <div id="countdown">------------------------------------------</div>
+
+  <br>
+    <article>
+        
+        <div id="article_container">
+            <style type="text/css">
+                .tg  {border-collapse:collapse;border-spacing:0;border:none;margin:0px auto;}
+                .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+                .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+                .tg .tg-5qzi{background-color:none;text-align:left;vertical-align:middle}
+            </style>
+                <table class="tg">
+                  <tr>
+                    <td class="tg-5qzi" id="Alabama"></th>
+                    <td class="tg-5qzi" id="Colorado"></th>
+                    <td class="tg-5qzi" id="Hawaii">Hawaii</th>
+                    <td class="tg-5qzi" id="Kansas">Kansas</th>
+                    <td class="tg-5qzi" id="Massachusetts">Massachusetts</th>
+                    <td class="tg-5qzi" id="Montana">Montana</th>
+                    <td class="tg-5qzi" id="New Mexico">New Mexico</th>
+                    <td class="tg-5qzi" id="Oklahoma">Oklahoma</th>
+                    <td class="tg-5qzi" id="South Dakota">SouthDakota</th>
+                    <td class="tg-5qzi" id="Virginia">Virginia</th>
+                  </tr>
+                  <tr>
+                    <td class="tg-5qzi" id="Alaska">Alaska</td>
+                    <td class="tg-5qzi" id="Connecticut">Connecticut</td>
+                    <td class="tg-5qzi" id="Idaho">Idaho</td>
+                    <td class="tg-5qzi" id="Kentucky">Kentucky</td>
+                    <td class="tg-5qzi" id="Michigan">Michigan</td>
+                    <td class="tg-5qzi" id="Nebraska">Nebraska</td>
+                    <td class="tg-5qzi" id="New York">New York</td>
+                    <td class="tg-5qzi" id="Oregon">Oregon</td>
+                    <td class="tg-5qzi" id="Tennessee">Tennessee</td>
+                    <td class="tg-5qzi" id="Washington">Washington</td>
+                  </tr>
+                  <tr>
+                    <td class="tg-5qzi" id="Arizona">Arizona</td>
+                    <td class="tg-5qzi" id="Delaware">Delaware</td>
+                    <td class="tg-5qzi" id="Illinois">Illinois</td>
+                    <td class="tg-5qzi" id="Louisiana">Louisiana</td>
+                    <td class="tg-5qzi" id="Minnesota">Minnesota</td>
+                    <td class="tg-5qzi" id="Nevada">Nevada</td>
+                    <td class="tg-5qzi" id="North Carolina">North Carolina</td>
+                    <td class="tg-5qzi" id="Pennsylvania">Pennsylvania</td>
+                    <td class="tg-5qzi" id="Texas">Texas</td>
+                    <td class="tg-5qzi" id="West Virginia">West Virginia</td>
+                  </tr>
+                  <tr>
+                    <td class="tg-5qzi" id="Arkansas">Arkansas</td>
+                    <td class="tg-5qzi" id="Florida">Florida</td>
+                    <td class="tg-5qzi" id="Indiana">Indiana</td>
+                    <td class="tg-5qzi" id="Maine">Maine</td>
+                    <td class="tg-5qzi" id="Mississippi">Mississippi</td>
+                    <td class="tg-5qzi" id="New Hampshire">New Hampshire</td>
+                    <td class="tg-5qzi" id="North Dakota">North Dakota</td>
+                    <td class="tg-5qzi" id="Rhode Island">Rhode Island</td>
+                    <td class="tg-5qzi" id="Utah">Utah</td>
+                    <td class="tg-5qzi" id="Wisconsin">Wisconsin</td>
+                  </tr>
+                  <tr>
+                    <td class="tg-5qzi" id="California">California</td>
+                    <td class="tg-5qzi" id="Georgia">Georgia</td>
+                    <td class="tg-5qzi" id="Iowa">Iowa</td>
+                    <td class="tg-5qzi" id="Maryland">Maryland</td>
+                    <td class="tg-5qzi" id="Missouri">Missouri</td>
+                    <td class="tg-5qzi" id="New Jersey">New Jersey</td>
+                    <td class="tg-5qzi" id="Ohio">Ohio</td>
+                    <td class="tg-5qzi" id="South Carolina">South Carolina</td>
+                    <td class="tg-5qzi" id="Vermont">Vermont</td>
+                    <td class="tg-5qzi" id="Wyoming">Wyoming</td>
+                    <br>
+                    <!--<td class="tg-5qzi" id="District of Columbia">District of Columbia</td>-->
+                  </tr>
+                  
+                </table>
+                
+        </div>
+        <br>
+        <!--Spanish Speakers Container-->
+        <div id="spanish_container">------------------------------------------</div>
+
+        <!--Score Container-->
+        <div id="score_container"></div>
+    </article>
+    
+
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        console.log(abvMap);
+    </script>
+</body>
+
+</html>
